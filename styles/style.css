@@ -1,0 +1,92 @@
+.page {
+  /* Agrega las propiedades de la clase page aquí */
+  min-width: 1100px; /*ancho*/
+  max-width: 1600px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-stretch: normal;
+  line-height: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0%;
+}
+
+.nav__logo {
+  justify-content: space-between;
+  width: 58px;
+  height: 80px;
+}
+
+.nav__links {
+  margin: 8px 0 0;
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header__content {
+  justify-content: space-between;
+  display: flex;
+}
+
+.header__title {
+  max-width: 635px;
+  font-size: 62px;
+  line-height: 76px;
+  font-weight: 500;
+  margin-top: 128px;
+}
+
+.header__description {
+  max-width: 515px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 32px;
+}
+
+.header__image {
+  max-width: 636px;
+  display: flex;
+  justify-content: end;
+}
+
+.header__footer {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__address {
+  margin: 0;
+  color: #838383;
+}
